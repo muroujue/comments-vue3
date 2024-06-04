@@ -172,4 +172,22 @@ const appendReply = (comment, replyObject, upperId) => {
     }
   }
 }
+@media (max-width: 1024px) {
+  .app-wrapper {
+    width: 100%;
+  }
+  .comment-area {
+    .comment-box {
+      .reply-area {
+        padding-left: 3rem;
+        &::before {
+          left: 1.5em;
+        }
+        ::v-deep .comment-item {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
 </style>

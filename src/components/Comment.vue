@@ -265,6 +265,7 @@ section {
 @media (max-width: 1024px) {
   .comment-item {
     padding: 1.5rem;
+    width: 100%;
     .bottom-line {
       margin-top: 0.5rem;
       display: flex;

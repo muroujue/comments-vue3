@@ -80,7 +80,11 @@
   src: url("./fonts/Rubik-VariableFont_wght.ttf") format("truetype");
 }
 
+html {
+  width: 100%;
+}
 body {
+  width: 100%;
   min-height: 100vh;
   color: var(--color-text);
   background: var(--color-background);
