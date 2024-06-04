@@ -46,4 +46,26 @@ const submitComment = () => {
     }
   }
 }
+@media (max-width: 1024px) {
+  .answer-area {
+    width: 100%;
+    position: relative;
+    padding-bottom: 4.2rem;
+    img {
+      position: absolute;
+      left: 1.5rem;
+      bottom: 1.2rem;
+      width: 1.8rem;
+      height: 1.8rem;
+    }
+    .el-textarea {
+      margin: 0;
+    }
+    .el-button {
+      position: absolute;
+      right: 1.5rem;
+      bottom: 1rem;
+    }
+  }
+}
 </style>

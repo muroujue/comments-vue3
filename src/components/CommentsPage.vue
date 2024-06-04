@@ -186,6 +186,9 @@ const appendReply = (comment, replyObject, upperId) => {
         ::v-deep .comment-item {
           width: 100%;
         }
+        ::v-deep .reply-item .answer-area {
+          width: 100%;
+        }
       }
     }
   }

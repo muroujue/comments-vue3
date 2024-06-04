@@ -283,6 +283,13 @@ section {
     }
     .button-box {
       position: static;
+      .el-button {
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .el-button + .el-button {
+        margin-left: 0;
+      }
     }
   }
 }
